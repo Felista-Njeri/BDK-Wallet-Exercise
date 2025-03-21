@@ -12,3 +12,4 @@ print("\nGenerated Addresses:")
 for i in range(3):
     address = wallet.get_address(bdk.AddressIndex.NEW).address
     print(f"Address {i+1}: {address}")
+
